@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+canvas {
+    border:1px solid #d3d3d3;
+    background:url('map2.png');
+	font-family: Impact, Charcoal, sans-serif;
+	animation: animatedBackground 5s linear infinite;	
+}
+#spedo
+{
+position:absolute;
+top:500px;
+left:9px;
+
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0px 2000px;
+  }
+}
+</style>
+</head>
+<body onload="startGame()">
+<script src="game.js">
+</script>
+
+
+
+</body>
+</html>
